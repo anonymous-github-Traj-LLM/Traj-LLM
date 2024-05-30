@@ -1,0 +1,15 @@
+torch>=1.13.1
+transformers==4.34.0
+datasets>=2.12.0
+peft>=0.4.0
+trl>=0.7.2
+scipy
+sentencepiece
+protobuf
+tiktoken
+jieba
+nltk
+uvicorn
+pydantic==1.10.11
+matplotlib
+transformers_stream_generator

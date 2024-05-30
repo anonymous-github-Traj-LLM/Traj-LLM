@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenDRIVE>
+    <header revMajor="1" revMinor="4" name="" version="1" date="2023-08-22T10:03:39" north="1.9960582937690006e+01" south="-2.6467426824178705e+02" east="2.7627676697138662e+02" west="-2.0006597515640212e+01" vendor="MathWorks">
+        <userData>
+            <vectorScene program="RoadRunner" version="R2022b Update 4 (1.5.4.2b2a4e5a56e)"/>
+        </userData>
+    </header>
+    <road name="Road 0" length="1.4076109600067139e+02" id="0" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="3"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.2813797176153355e+02" y="-1.0391317224111567e+02" hdg="-1.5707963267948966e+00" length="1.4076109600067139e+02">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-1.0335000000000001e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="4" type="sidewalk" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{8e0acbcc-9c64-431a-bc0d-da25d0fecd59}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="3" type="shoulder" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{46b00614-1be7-4b96-a921-0fb3cba36377}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{7a69462a-791c-47ba-9a32-c0d91fa9dbbd}" travelDir="backward"/>
+                        </userData>
+                    </lane>
+                    <lane id="1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{8c26ae48-b954-4a08-b9d9-41e82e9ac16b}" travelDir="backward"/>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="solid solid" width="1.2500000000000000e-01" material="standard" weight="standard" color="yellow" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{453830bf-23bb-4a01-9f99-1a3ef3d87f18}" travelDir="forward"/>
+                        </userData>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{5dfd9e42-0104-4baa-b493-939ce70b87d7}" travelDir="forward"/>
+                        </userData>
+                    </lane>
+                    <lane id="-3" type="shoulder" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{fb141c49-3629-4df3-ae3f-acc0246b08d0}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="-4" type="sidewalk" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{6e31598b-add4-4a12-82ad-ad7068f09c05}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                </right>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="-3" leftBoundary="3"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 1" length="1.3854248649376109e+02" id="1" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="3"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.1879190654339570e+02" y="-8.8064632620222227e+01" hdg="2.5260437906122748e+00" length="1.3854248649376109e+02">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-1.0335000000000001e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="4" type="sidewalk" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="1.9999999999999991e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{c380cfa9-d320-40f8-9d8d-59c0e594a633}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="3" type="shoulder" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{6089e223-e881-47d8-b67d-f80c4e6bb243}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6099999999999999e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{7cd3ecc8-1ec7-4016-aae8-7c11147b75c3}" travelDir="backward"/>
+                        </userData>
+                    </lane>
+                    <lane id="1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="both"/>
+                        <roadMark sOffset="9.8030684317473415e-02" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{ce26f485-b72d-47f6-b235-f23fad5d9e40}" travelDir="backward"/>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="solid solid" width="1.2500000000000000e-01" material="standard" weight="standard" color="yellow" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{91251b8f-1416-48bd-b691-5b6445becc2d}" travelDir="forward"/>
+                        </userData>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{a6fa7a83-c134-47f7-afb4-e495515cabfc}" travelDir="forward"/>
+                        </userData>
+                    </lane>
+                    <lane id="-3" type="shoulder" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{391bfc0e-f738-483a-b143-97ba55d16af2}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="-4" type="sidewalk" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{63467a15-1012-40ff-9f32-94690b531ed8}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                </right>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="-3" leftBoundary="3"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 2" length="1.3850374000636526e+02" id="2" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="3"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.3751567180707517e+02" y="-8.8042260137556028e+01" hdg="6.1554886297751832e-01" length="1.3850374000636526e+02">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-1.0335000000000001e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="4" type="sidewalk" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{f8c71bad-e716-48f1-9643-6c93d417365e}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="3" type="shoulder" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{5dba0836-3cee-4621-b749-f8cd5670c9ae}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{377ddc65-f5ae-4e8d-ad2c-2ce53dc27bef}" travelDir="backward"/>
+                        </userData>
+                    </lane>
+                    <lane id="1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="both"/>
+                        <roadMark sOffset="9.9997735670029897e-02" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{9aac2050-d579-46ec-845a-f4579f571a78}" travelDir="backward"/>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="solid solid" width="1.2500000000000000e-01" material="standard" weight="standard" color="yellow" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{7596da5f-ef4a-492b-a5cf-3537771625cb}" travelDir="forward"/>
+                        </userData>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{99c17872-7c43-46cf-ad91-bfa1cf416ec4}" travelDir="forward"/>
+                        </userData>
+                    </lane>
+                    <lane id="-3" type="shoulder" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{b2ee1149-26fe-44c4-96a5-198e8883f0bd}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                    <lane id="-4" type="sidewalk" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{e91aa367-fb6d-471d-a136-959cb1c41a86}" travelDir="undirected"/>
+                        </userData>
+                    </lane>
+                </right>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="-3" leftBoundary="3"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 4" length="1.2871516406869224e+01" id="4" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="0" contactPoint="start"/>
+            <successor elementType="road" elementId="2" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.3533797176153354e+02" y="-1.0391317224111567e+02" hdg="1.5707963267948966e+00" length="2.9242582993064001e+00">
+                <line/>
+            </geometry>
+            <geometry s="2.9242582993064001e+00" x="1.3533797176153354e+02" y="-1.0098891394180927e+02" hdg="1.5707963267948966e+00" length="4.7760572751450674e+00">
+                <arc curvature="-2.0000046336769786e-01"/>
+            </geometry>
+            <geometry s="7.7003155744514675e+00" x="1.3745093895577267e+02" y="-9.6906634210617270e+01" hdg="6.1554886297751832e-01" length="5.1712008324177559e+00">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-1.1546319456101628e-14" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="2.9120086393045037e+00" t="-2.6350000000000122e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="2.9242564180733250e+00" t="-3.1350000000000007e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="1.0013627691730978e+01" t="-3.1349999999999998e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="-1.1546319456101628e-14" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="4.1200542449951350e-01" a="-1.1546319456101628e-14" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="2.9120086393045037e+00" a="-1.1546319456101628e-14" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="2.9242564180733250e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="7.7003155744514675e+00" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.0013627691730978e+01" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.2513630145312163e+01" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.2871508627921123e+01" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="shoulder" level="false">
+                        <link>
+                            <predecessor id="3"/>
+                            <successor id="-3"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <width sOffset="4.1200542449951350e-01" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{d466b949-4bb5-4612-9d4b-7600b4415d9a}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="4.1200542449951350e-01" laneId="{1b3f57a0-83c5-4504-af6f-2f8ec33dc0ae}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.9120086393045037e+00" laneId="{46312931-5742-445b-9aab-62de1a572abd}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.9242564180733250e+00" laneId="{1ccc26ce-1044-41c3-89a3-4f93352d2e4f}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.7003155744514675e+00" laneId="{844f3377-c952-40fa-b79b-b15407303547}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.0013627691730978e+01" laneId="{5d0b0f73-b777-413e-8ac8-0c5b87cddbf4}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2513630145312163e+01" laneId="{936c8146-0326-4720-ac7f-0b0f6a6b73ba}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2513632779518112e+01" laneId="{c8b7cbe3-cbbd-4608-b6ce-af6a416a23d6}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2513632947588496e+01" laneId="{8e09c5b1-d763-4716-96f6-29f58ccd5f72}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2871508627921123e+01" laneId="{5ef6b15b-f5df-4903-9d53-eaa07d010523}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2871514623556850e+01" laneId="{4e204311-7b21-47b9-b682-b4d2ce17a04d}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                    <lane id="-2" type="sidewalk" level="false">
+                        <link>
+                            <predecessor id="4"/>
+                            <successor id="-4"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <width sOffset="4.1200542449951350e-01" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{5a5264b3-18b2-47c1-9ed6-bca07ab64376}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="4.1200542449951350e-01" laneId="{84c007a1-01b9-437b-a1dd-b3cc6dc5ce1c}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.9120086393045037e+00" laneId="{67733659-cc2b-4e98-a7c5-d80f35b29442}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.9242564180733250e+00" laneId="{233cb831-2bcd-435d-8cf1-f6ef640ad0f9}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.7003155744514675e+00" laneId="{f03c8199-dc6e-4152-87b7-2a2e98e54739}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.0013627691730978e+01" laneId="{becbec32-1234-44ea-8920-3d79954052d1}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2513630145312163e+01" laneId="{21f6b914-0a0a-4920-98e6-8d3825d4f701}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2513632779518112e+01" laneId="{d2d71e4d-1663-47b2-91bd-1be6be86c0a9}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2513632947588496e+01" laneId="{75dfc665-6512-408c-b279-fee364278718}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2871508627921123e+01" laneId="{a674d1d9-66bd-4b0d-a5a0-20d81d76cd38}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2871514623556850e+01" laneId="{ca3498db-e6b9-447a-87dd-74febf34ada8}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <userData>
+            <vectorRoad corner="yes"/>
+        </userData>
+    </road>
+    <road name="Road 15" length="1.9399473741583158e+01" id="15" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="0" contactPoint="start"/>
+            <successor elementType="road" elementId="2" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.2813797176153355e+02" y="-1.0391317224111567e+02" hdg="1.5707963267948966e+00" length="4.1200542449951350e-01">
+                <line/>
+            </geometry>
+            <geometry s="4.1200542449951527e-01" x="1.2813797176153355e+02" y="-1.0350099941949233e+02" hdg="1.5707963267948966e+00" length="1.1773690524108282e+00">
+                <line/>
+            </geometry>
+            <geometry s="1.5893744769103435e+00" x="1.2813797176153355e+02" y="-1.0232363036708151e+02" hdg="1.5707963267948954e+00" length="8.2178288793595460e+00">
+                <arc curvature="-7.5692590304917373e-02"/>
+            </geometry>
+            <geometry s="9.8072033562698877e+00" x="1.3061248075118209e+02" y="-9.4625583293203789e+01" hdg="9.4876757223362329e-01" length="8.4147339357786208e+00">
+                <arc curvature="-3.9599434967193890e-02"/>
+            </geometry>
+            <geometry s="1.8221937292048509e+01" x="1.3655426433903520e+02" y="-8.8722177610768512e+01" hdg="6.1554886297751743e-01" length="1.1775364495346485e+00">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-3.6000000000000001e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="4.1200542449951527e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="1"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <width sOffset="4.1200542449951527e-01" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <roadMark sOffset="3.2553744316101252e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="both"/>
+                        <roadMark sOffset="4.1200542449951527e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{4e42da53-cb4b-4965-8dfa-10e64383f2a2}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="4.1200542449951527e-01" laneId="{6736af09-2dc4-4fa4-94ef-94c905e6809d}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="solid solid" width="1.2500000000000000e-01" material="standard" weight="standard" color="yellow" laneChange="none"/>
+                        <roadMark sOffset="4.1200542449951527e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 17" length="2.2863285916825117e+01" id="17" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="0" contactPoint="start"/>
+            <successor elementType="road" elementId="2" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.2453797176153354e+02" y="-1.0391317224111567e+02" hdg="1.5707963267948966e+00" length="4.1200542449951350e-01">
+                <line/>
+            </geometry>
+            <geometry s="4.1200542449951527e-01" x="1.2453797176153354e+02" y="-1.0350097341497644e+02" hdg="1.5707963267948966e+00" length="1.4003902771679400e+00">
+                <line/>
+            </geometry>
+            <geometry s="1.8123957016674552e+00" x="1.2453797176153354e+02" y="-1.0210058313780850e+02" hdg="1.5707963267948966e+00" length="9.7268170682157429e+00">
+                <arc curvature="-6.1663984622858929e-02"/>
+            </geometry>
+            <geometry s="1.1539212769883198e+01" x="1.2736860710895490e+02" y="-9.2946573843433740e+01" hdg="9.7100202867107832e-01" length="9.9234876848218594e+00">
+                <arc curvature="-3.5819378930376490e-02"/>
+            </geometry>
+            <geometry s="2.1462700454705057e+01" x="1.3429349025339602e+02" y="-8.5911723662432479e+01" hdg="6.1554886297751832e-01" length="1.4005854621200586e+00">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-3.6000000000000085e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="4.1200542449951527e-01" t="-3.6000000000000001e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="2.2863284133512742e+01" t="-1.3935000000000006e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="-8.4376949871511897e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="4.1200542449951527e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="2.2863284133512742e+01" a="-5.7731597280508140e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <width sOffset="4.1200542449951527e-01" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{ed27c721-6101-4a3c-82c4-f16cfb1d1c80}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="4.1200542449951527e-01" laneId="{f7f5c2a2-e485-4e18-9836-a43c47965658}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.2863284133512742e+01" laneId="{a4b663e9-2962-44e7-bdce-3153a8482f1e}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="none"/>
+                        <roadMark sOffset="3.2553744316101252e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 20" length="1.5900576625663188e+01" id="20" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="2" contactPoint="start"/>
+            <successor elementType="road" elementId="0" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.3959433604250691e+02" y="-9.0981504087339204e+01" hdg="3.7571415165673114e+00" length="1.7833123742150292e-06">
+                <line/>
+            </geometry>
+            <geometry s="1.7833123742150292e-06" x="1.3959433458650966e+02" y="-9.0981505117035780e+01" hdg="3.7571415165673114e+00" length="5.9956357265633642e-06">
+                <line/>
+            </geometry>
+            <geometry s="7.7789481007783934e-06" x="1.3959432969133297e+02" y="-9.0981508578956209e+01" hdg="3.7571415165673114e+00" length="3.5787568033262751e-01">
+                <line/>
+            </geometry>
+            <geometry s="3.5788345928072829e-01" x="1.3930213957405741e+02" y="-9.1188148503067367e+01" hdg="3.7571415165673114e+00" length="2.6342059484818492e-06">
+                <line/>
+            </geometry>
+            <geometry s="3.5788626155706105e-01" x="1.3930202776647621e+02" y="-9.1188227574564763e+01" hdg="3.7571415165673114e+00" length="9.6870764775361451e-01">
+                <line/>
+            </geometry>
+            <geometry s="1.3265939093106756e+00" x="1.3851111996292940e+02" y="-9.1747565891779928e+01" hdg="3.7571415165673105e+00" length="6.8724441663330094e+00">
+                <arc curvature="5.1255862802265975e-02"/>
+            </geometry>
+            <geometry s="8.1990380756436849e+00" x="1.3370709557419246e+02" y="-9.6612283971231776e+01" hdg="4.1093945718731106e+00" length="6.7326965940134009e+00">
+                <arc curvature="8.9562094487928026e-02"/>
+            </geometry>
+            <geometry s="1.4931734669657086e+01" x="1.3173797176153354e+02" y="-1.0294433028510957e+02" hdg="4.7123889803846897e+00" length="9.6884195600610212e-01">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-3.6000000000000059e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="3.5788345928072829e-01" t="-3.6000000000000001e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="-5.7731597280508140e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="3.5788345928072829e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{be014b2a-13cf-4cb1-8518-3f255fb43591}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.7833123742150292e-06" laneId="{75928cdd-3d59-4812-8c29-5ff0d0a216f6}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.7789481007783934e-06" laneId="{4bc810f5-3601-4b98-b953-7bab64f8c2d0}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788345928072829e-01" laneId="{80a2847a-ecb1-4acf-b54c-5870796c1c63}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788362735111257e-01" laneId="{dda49caa-d46f-4d17-8d7c-07b9a256cd27}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788626155706105e-01" laneId="{8eca3b4b-0de5-4353-970f-057c139f579c}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="none"/>
+                        <roadMark sOffset="3.5788626155706105e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 26" length="1.2827593840611756e+01" id="26" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="0" contactPoint="start"/>
+            <successor elementType="road" elementId="1" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.2093797176153355e+02" y="-1.0391317224111567e+02" hdg="1.5707963267948966e+00" length="2.9120086393045037e+00">
+                <line/>
+            </geometry>
+            <geometry s="2.9120086393045037e+00" x="1.2093797175840319e+02" y="-1.0100098626398552e+02" hdg="1.5708317124133475e+00" length="4.7760574327333085e+00">
+                <arc curvature="2.0000034263121338e-01"/>
+            </geometry>
+            <geometry s="7.6880660720378122e+00" x="1.1882500564369032e+02" y="-9.6918883019522113e+01" hdg="2.5260437906122757e+00" length="5.1395277685739433e+00">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-2.6350000000000033e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="7.6880664820743467e+00" t="-1.7544999999999998e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="-2.6645352591003757e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="4.1200542449951350e-01" a="-2.6645352591003757e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="2.9120086393045037e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="7.6880664820743467e+00" a="2.6645352591003757e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.0008451612869333e+01" a="2.6645352591003757e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.2508451281908570e+01" a="2.6645352591003757e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.2827592490809311e+01" a="2.6645352591003757e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="2" type="sidewalk" level="false">
+                        <link>
+                            <predecessor id="-4"/>
+                            <successor id="4"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <width sOffset="4.1200542449951350e-01" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{c53f177b-9b60-44d7-8a3a-d5697bdea27a}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="4.1200542449951350e-01" laneId="{9d88469c-3d29-4c66-aa9d-1d0fecd8d523}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.9120086393045037e+00" laneId="{8b1915b4-b5e4-4add-8765-210c54d4616c}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.6880664820743467e+00" laneId="{d8a588cf-ce3f-46fe-8b1c-549b7575857f}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.0008451612869333e+01" laneId="{baac66dc-9979-4c44-ae8d-6cdc93c87b08}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2508451281908570e+01" laneId="{101c298e-3e00-44b1-bb1c-cab58bfb7a9a}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2508451806734003e+01" laneId="{f9cf6af0-7606-4e68-8ce4-1034c33374ed}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2508457055712853e+01" laneId="{9cd9b83e-8cbe-4d81-b853-12d090570e12}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2827592490809311e+01" laneId="{d3108816-9357-4ce8-9cba-dffe04783157}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2827592723214295e+01" laneId="{b255cc58-32ee-45f8-bc47-dfa926bb7169}" travelDir="undirected">
+                                <predecessor id="-4" virtual="false"/>
+                                <successor id="4" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                    <lane id="1" type="shoulder" level="false">
+                        <link>
+                            <predecessor id="-3"/>
+                            <successor id="3"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <width sOffset="4.1200542449951350e-01" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{b6c5464c-eb1d-4d7b-ad8c-3dd7075b2ad1}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="4.1200542449951350e-01" laneId="{f813b156-63b6-4b55-a429-c007b1da848b}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.9120086393045037e+00" laneId="{598f9fb1-c741-4fbc-8123-2b808ef2b20e}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.6880664820743467e+00" laneId="{db6f6dbe-6bc5-4c90-a204-7481efd6b2c5}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.0008451612869333e+01" laneId="{f6d06511-fd25-4f1a-946f-6b1de7b45532}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2508451281908570e+01" laneId="{abf577d4-3520-46eb-bec8-49bbe8412d16}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2508451806734003e+01" laneId="{07389fa0-be53-43d7-b7c8-cb5edc8841b9}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2508457055712853e+01" laneId="{4fc792b9-18ad-4801-a5fb-fb6e57332747}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2827592490809311e+01" laneId="{1ef412cd-c14d-4703-83f6-47fffc5e5989}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.2827592723214295e+01" laneId="{b67e76fb-cfb5-49c8-8794-c6de07fd0ef3}" travelDir="undirected">
+                                <predecessor id="-3" virtual="false"/>
+                                <successor id="3" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+            </laneSection>
+        </lanes>
+        <userData>
+            <vectorRoad corner="yes"/>
+        </userData>
+    </road>
+    <road name="Road 36" length="1.5901652215605385e+01" id="36" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="0" contactPoint="start"/>
+            <successor elementType="road" elementId="1" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.2453797176153356e+02" y="-1.0391317224111567e+02" hdg="1.5707963267948966e+00" length="4.1200542449951350e-01">
+                <line/>
+            </geometry>
+            <geometry s="4.1200542449951350e-01" x="1.2453797176153356e+02" y="-1.0350102521371517e+02" hdg="1.5707963267948966e+00" length="9.5132002405164329e-01">
+                <line/>
+            </geometry>
+            <geometry s="1.3633254485511568e+00" x="1.2453797176153356e+02" y="-1.0254970518966353e+02" hdg="1.5707963267948966e+00" length="6.6962280105891088e+00">
+                <arc curvature="9.7361652173110630e-02"/>
+            </geometry>
+            <geometry s="8.0595534591402647e+00" x="1.2243137891027902e+02" y="-9.6317865114381192e+01" hdg="2.2227521492337159e+00" length="6.8906360121150323e+00">
+                <arc curvature="4.4015043146280741e-02"/>
+            </geometry>
+            <geometry s="1.4950189471255298e+01" x="1.1749007039540146e+02" y="-9.1553257563901582e+01" hdg="2.5260437906122752e+00" length="9.5146274435008704e-01">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-3.5999999999999943e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="4.1200542449951350e-01" t="-3.6000208484574165e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="1.5901651098207923e+01" t="-1.3935000000000008e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="5.7731597280508140e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="4.1200542449951350e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.5901651098207923e+01" a="-6.6613381477509392e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <width sOffset="4.1200542449951350e-01" a="3.6000000000000001e+00" b="8.6736173798840355e-19" c="1.2503692595861553e-04" d="-5.3815272728004333e-06"/>
+                        <width sOffset="1.5901651098207923e+01" a="3.6099999999999999e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{ed27c721-6101-4a3c-82c4-f16cfb1d1c80}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="4.1200542449951350e-01" laneId="{031a9609-966f-4abb-8d0a-42a0656626f0}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.5901651098207923e+01" laneId="{383683d3-b781-42ec-91f6-9f5ffe896b52}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="none"/>
+                        <roadMark sOffset="3.2553744316101074e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 39" length="1.9328082353063863e+01" id="39" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="1" contactPoint="start"/>
+            <successor elementType="road" elementId="0" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.1879190654339570e+02" y="-8.8064632620222227e+01" hdg="5.6676364442020679e+00" length="1.1173974616696114e-06">
+                <line/>
+            </geometry>
+            <geometry s="1.1173974598932546e-06" x="1.1879190764545088e+02" y="-8.8064633399607246e+01" hdg="5.6676364442020679e+00" length="3.1913543509645770e-01">
+                <line/>
+            </geometry>
+            <geometry s="3.1913678489890174e-01" x="1.1905246789455329e+02" y="-8.8248904348272234e+01" hdg="5.6676364442020679e+00" length="5.2489788497922518e-06">
+                <line/>
+            </geometry>
+            <geometry s="3.1914203387775331e-01" x="1.1905260397326589e+02" y="-8.8249000584569018e+01" hdg="5.6676364442020670e+00" length="1.1908625372822819e+00">
+                <line/>
+            </geometry>
+            <geometry s="1.5100050959854698e+00" x="1.2002489161430211e+02" y="-8.8936612630559068e+01" hdg="5.6676364442020670e+00" length="8.3833276250016677e+00">
+                <arc curvature="-4.4741359955393398e-02"/>
+            </geometry>
+            <geometry s="9.8933327209871358e+00" x="1.2581293522486010e+02" y="-9.4933164446471807e+01" hdg="5.2925549653078736e+00" length="8.2437261987429142e+00">
+                <arc curvature="-7.0376668382272661e-02"/>
+            </geometry>
+            <geometry s="1.8137058919730052e+01" x="1.2813797176153355e+02" y="-1.0272214880778186e+02" hdg="4.7123889803846897e+00" length="1.1910234333338110e+00">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-3.6000000000000001e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="3.1913678489890174e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="1"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <roadMark sOffset="3.1913695352348981e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{8cdddc66-0935-4706-845e-58680bfc493a}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1173974598932546e-06" laneId="{447bc86d-cf90-4482-8349-ae894aec8f19}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.3498024458158397e-06" laneId="{0ca3c3fc-7239-4a33-ad91-9e7d2190e354}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.1913678489890174e-01" laneId="{99a83021-8e04-48a4-8f2c-717e19ca5719}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.1914203387775331e-01" laneId="{26f0d04d-cde4-43fa-84e4-c9ef527936d6}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.1914255870318797e-01" laneId="{4de5f54a-9e31-4301-afeb-18d8022eb3e1}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="solid solid" width="1.2500000000000000e-01" material="standard" weight="standard" color="yellow" laneChange="none"/>
+                        <roadMark sOffset="3.1914218331943900e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 45" length="2.2796355714665339e+01" id="45" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="1" contactPoint="start"/>
+            <successor elementType="road" elementId="0" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.2087057077882744e+02" y="-8.5125388670439065e+01" hdg="5.6676364442020679e+00" length="1.1173974616696114e-06">
+                <line/>
+            </geometry>
+            <geometry s="1.1173974598932546e-06" x="1.2087057188088262e+02" y="-8.5125389449824084e+01" hdg="5.6676364442020679e+00" length="3.1913543509645770e-01">
+                <line/>
+            </geometry>
+            <geometry s="3.1913678489890529e-01" x="1.2113128559676709e+02" y="-8.5309768931811462e+01" hdg="5.6676364442020652e+00" length="1.4122995525098005e+00">
+                <line/>
+            </geometry>
+            <geometry s="1.7314363374087058e+00" x="1.2228436696204372e+02" y="-8.6125240201122125e+01" hdg="5.6676364442020652e+00" length="9.8959749411522662e+00">
+                <arc curvature="-3.9499665219066928e-02"/>
+            </geometry>
+            <geometry s="1.1627411278560970e+01" x="1.2905719617030528e+02" y="-9.3253950752225194e+01" hdg="5.2767487470102781e+00" length="9.7564569167484194e+00">
+                <arc curvature="-5.7844745427695181e-02"/>
+            </geometry>
+            <geometry s="2.1383868195309390e+01" x="1.3173797176153352e+02" y="-1.0250068472175973e+02" hdg="4.7123889803846897e+00" length="1.4124875193559490e+00">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-3.5999999999999943e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="3.1913678489890529e-01" t="-3.6000000000000001e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="5.7731597280508140e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="3.1913678489890529e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{6b024f1e-0918-4aac-bf4b-175928a9928b}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1173974598932546e-06" laneId="{51099086-2804-4579-b734-aa9434283615}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.3498024458158397e-06" laneId="{e63a0e6b-80d2-4bd1-bf50-6ed2e544b323}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.1913678489890529e-01" laneId="{4edc015e-bd8c-48a6-b016-f47234b43756}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="none"/>
+                        <roadMark sOffset="3.1913678489890529e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 49" length="1.5738388341095463e+01" id="49" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="1" contactPoint="start"/>
+            <successor elementType="road" elementId="2" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.2087057077882744e+02" y="-8.5125388670439051e+01" hdg="5.6676364442020679e+00" length="1.1173974616696114e-06">
+                <line/>
+            </geometry>
+            <geometry s="1.1173974616696114e-06" x="1.2087057188088262e+02" y="-8.5125389449824070e+01" hdg="5.6676364442020679e+00" length="3.1913543509645770e-01">
+                <line/>
+            </geometry>
+            <geometry s="3.1913678489890351e-01" x="1.2113113212998503e+02" y="-8.5309660398489058e+01" hdg="5.6676364442020679e+00" length="5.2489788497922518e-06">
+                <line/>
+            </geometry>
+            <geometry s="3.1914203387775331e-01" x="1.2113131466914494e+02" y="-8.5309789492102837e+01" hdg="5.6676364442020670e+00" length="6.4199483692442172e-01">
+                <line/>
+            </geometry>
+            <geometry s="9.6113687080217503e-01" x="1.2165547562476220e+02" y="-8.5680481632893574e+01" hdg="5.6676364442020670e+00" length="7.0460405949022968e+00">
+                <arc curvature="9.1378967912873310e-02"/>
+            </geometry>
+            <geometry s="8.0071774657044710e+00" x="1.2828406881800910e+02" y="-8.7684691357848493e+01" hdg="2.8311054456858553e-02" length="7.0889899336641555e+00">
+                <arc curvature="8.2838008519660458e-02"/>
+            </geometry>
+            <geometry s="1.5096167399368625e+01" x="1.3491266201125600e+02" y="-8.5473838882998649e+01" hdg="6.1554886297751743e-01" length="6.4221316277873719e-01">
+                <line/>
+            </geometry>
+            <geometry s="1.5738380562147363e+01" x="1.3543700122046948e+02" y="-8.5103020679389857e+01" hdg="6.8987341701571046e+00" length="5.9956357265633642e-06">
+                <line/>
+            </geometry>
+            <geometry s="1.5738386557783089e+01" x="1.3543700611564617e+02" y="-8.5103017217469429e+01" hdg="6.8987341701571046e+00" length="1.7833123742150292e-06">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-3.6000000000000068e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="3.1913678489890351e-01" t="-3.6000000000000001e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="1.5738380562147363e+01" t="-3.6000000000000059e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="-6.6613381477509392e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="3.1913678489890351e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.5738380562147363e+01" a="-5.7731597280508140e-15" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{6b024f1e-0918-4aac-bf4b-175928a9928b}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1173974616696114e-06" laneId="{51099086-2804-4579-b734-aa9434283615}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.3498024458158397e-06" laneId="{e63a0e6b-80d2-4bd1-bf50-6ed2e544b323}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.1913678489890351e-01" laneId="{3182c3c0-ed99-43a1-b60b-09fbc3ebb4d0}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.1914203387775331e-01" laneId="{9de7d76c-6417-4aa3-9171-28e4d223f255}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.5738380562147363e+01" laneId="{c7dd6765-67b6-4fca-94da-c7279056eddc}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.5738386557783089e+01" laneId="{a4b663e9-2962-44e7-bdce-3153a8482f1e}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="none"/>
+                        <roadMark sOffset="3.1913695352348981e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 56" length="2.0222615035529167e+01" id="56" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="2" contactPoint="start"/>
+            <successor elementType="road" elementId="1" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.3751567180707517e+02" y="-8.8042260137556028e+01" hdg="3.7571415165673114e+00" length="1.7833123742150292e-06">
+                <line/>
+            </geometry>
+            <geometry s="1.7833123742150292e-06" x="1.3751567035107792e+02" y="-8.8042261167252605e+01" hdg="3.7571415165673114e+00" length="5.9956357265633642e-06">
+                <line/>
+            </geometry>
+            <geometry s="7.7789481007783934e-06" x="1.3751566545590123e+02" y="-8.8042264629173033e+01" hdg="3.7571415165673114e+00" length="3.5787568033262751e-01">
+                <line/>
+            </geometry>
+            <geometry s="3.5788345928072829e-01" x="1.3722324606183147e+02" y="-8.8249066700244484e+01" hdg="3.7571415165673119e+00" length="8.2757744118817911e-01">
+                <line/>
+            </geometry>
+            <geometry s="1.1854609004689074e+00" x="1.3654756495433443e+02" y="-8.8726915486091144e+01" hdg="3.7571415165673119e+00" length="9.0854990215039280e+00">
+                <arc curvature="-6.9907612895089635e-02"/>
+            </geometry>
+            <geometry s="1.0270959921972835e+01" x="1.2800769156064936e+02" y="-9.1349681888653066e+01" hdg="3.1219959680132972e+00" length="9.1237953351849477e+00">
+                <arc curvature="-6.5318450875678294e-02"/>
+            </geometry>
+            <geometry s="1.9394755257157783e+01" x="1.1946781816696428e+02" y="-8.8542644429459187e+01" hdg="2.5260437906122757e+00" length="8.2785977837138425e-01">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-9.8350000000000009e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="3.5788345928072829e-01" t="-3.6000000000000001e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="2.0222613685726721e+01" t="-1.0335000000000001e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="3.5788345928072829e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="2.0222613685726721e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="1"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="both"/>
+                        <roadMark sOffset="3.5788345928072829e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <roadMark sOffset="2.0222613918131707e+01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="both"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{440052cd-a22d-44d1-8de2-310fc27f5a02}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.7833123742150292e-06" laneId="{e8a1cef5-e1a1-48fc-a2b7-8acc7f6fa3e1}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.7789481007783934e-06" laneId="{1649ba5c-d26c-4063-b131-945a9f2dd6c5}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788345928072829e-01" laneId="{aef35299-0a67-45b1-9d21-fadef137f29b}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.0222613685726721e+01" laneId="{7d320d17-6930-40ee-8e51-96cb74c7dd3a}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.0222613918131707e+01" laneId="{ac3e8bf7-4fb9-4270-93e1-945c3fb6b491}" travelDir="backward">
+                                <predecessor id="-1" virtual="false"/>
+                                <successor id="1" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="solid solid" width="1.2500000000000000e-01" material="standard" weight="standard" color="yellow" laneChange="none"/>
+                        <roadMark sOffset="3.5788345928072829e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <roadMark sOffset="2.0222613685726721e+01" type="solid solid" width="1.2500000000000000e-01" material="standard" weight="standard" color="yellow" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 62" length="2.4702710380227607e+01" id="62" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="2" contactPoint="start"/>
+            <successor elementType="road" elementId="1" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.3959433604250691e+02" y="-9.0981504087339189e+01" hdg="3.7571415165673114e+00" length="1.7833123742150292e-06">
+                <line/>
+            </geometry>
+            <geometry s="1.7833123742150292e-06" x="1.3959433458650966e+02" y="-9.0981505117035766e+01" hdg="3.7571415165673114e+00" length="5.9956357265633642e-06">
+                <line/>
+            </geometry>
+            <geometry s="7.7789481007783934e-06" x="1.3959432969133297e+02" y="-9.0981508578956195e+01" hdg="3.7571415165673114e+00" length="3.5787568033262751e-01">
+                <line/>
+            </geometry>
+            <geometry s="3.5788345928072829e-01" x="1.3930185850747296e+02" y="-9.1188347276312044e+01" hdg="3.7571415165673145e+00" length="1.0144058359241761e+00">
+                <line/>
+            </geometry>
+            <geometry s="1.3722894632752887e+00" x="1.3847364011417716e+02" y="-9.1774072035020055e+01" hdg="3.7571415165673141e+00" length="1.1138687660937173e+01">
+                <arc curvature="-5.6697829923967012e-02"/>
+            </geometry>
+            <geometry s="1.2510977124212461e+01" x="1.2800769094101068e+02" y="-9.5009037135420655e+01" hdg="3.1256020979913086e+00" length="1.1176983168398607e+01">
+                <arc curvature="-5.3642230496884304e-02"/>
+            </geometry>
+            <geometry s="2.3687960292611066e+01" x="1.1754174176784417e+02" y="-9.1589800101958105e+01" hdg="2.5260437906122739e+00" length="1.0147500876165365e+00">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-1.3434999999999992e+01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="3.5788362735111257e-01" t="-3.6000000000000001e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="2.4702710380227607e+01" t="-3.6099999999999999e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="1.0214051826551440e-14" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="3.5788345928072829e-01" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <width sOffset="3.5788362735111257e-01" a="3.6000000000000001e+00" b="0.0000000000000000e+00" c="5.0618337614577939e-05" d="-1.3861490472809126e-06"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{be014b2a-13cf-4cb1-8518-3f255fb43591}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.7833123742150292e-06" laneId="{75928cdd-3d59-4812-8c29-5ff0d0a216f6}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.7789481007783934e-06" laneId="{4bc810f5-3601-4b98-b953-7bab64f8c2d0}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788345928072829e-01" laneId="{80a2847a-ecb1-4acf-b54c-5870796c1c63}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788362735111257e-01" laneId="{97d2dbfd-bea0-4eb9-81ec-cdb057e238ac}" travelDir="backward">
+                                <predecessor id="-2" virtual="false"/>
+                                <successor id="2" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" width="1.5000000596046448e-01" material="standard" weight="standard" color="white" laneChange="none"/>
+                        <roadMark sOffset="3.5788362735111257e-01" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <userData>
+                    <vectorLaneSection>
+                        <carriageway rightBoundary="0" leftBoundary="1"/>
+                    </vectorLaneSection>
+                </userData>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road 67" length="1.1832130557786387e+01" id="67" junction="3">
+        <link>
+            <predecessor elementType="road" elementId="2" contactPoint="start"/>
+            <successor elementType="road" elementId="1" contactPoint="start"/>
+        </link>
+        <type s="0.0000000000000000e+00" type="town">
+            <speed max="60" unit="km/h"/>
+        </type>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.3335834333621168e+02" y="-8.2163772237989690e+01" hdg="3.7571415165673114e+00" length="1.7833123742150292e-06">
+                <line/>
+            </geometry>
+            <geometry s="1.7833123742150292e-06" x="1.3335834188021443e+02" y="-8.2163773267686267e+01" hdg="3.7571415165673114e+00" length="5.9956357265633642e-06">
+                <line/>
+            </geometry>
+            <geometry s="7.7789481007783934e-06" x="1.3335833698503774e+02" y="-8.2163776729606695e+01" hdg="3.7571415165673114e+00" length="3.5787568033262751e-01">
+                <line/>
+            </geometry>
+            <geometry s="3.5788345928072829e-01" x="1.3306614686776217e+02" y="-8.2370416653717854e+01" hdg="3.7571415165673114e+00" length="2.6342059484818492e-06">
+                <line/>
+            </geometry>
+            <geometry s="3.5788626155706105e-01" x="1.3306614471704719e+02" y="-8.2370418174726098e+01" hdg="3.7571415165673114e+00" length="2.5000024535811853e+00">
+                <line/>
+            </geometry>
+            <geometry s="2.8578887151382464e+00" x="1.3102500108201065e+02" y="-8.3813936421601326e+01" hdg="-2.5260437906122766e+00" length="3.0777383919150534e+00">
+                <arc curvature="-2.0000038489122696e-01"/>
+            </geometry>
+            <geometry s="5.9356271070532998e+00" x="1.2813797297764773e+02" y="-8.4731651391911385e+01" hdg="-3.1415926535897931e+00" length="2.4322283707078896e-06">
+                <line/>
+            </geometry>
+            <geometry s="5.9356295392816705e+00" x="1.2813797054541936e+02" y="-8.4731651391911385e+01" hdg="-3.1415926535897931e+00" length="3.0773587907622941e+00">
+                <arc curvature="-2.0000038489122696e-01"/>
+            </geometry>
+            <geometry s="9.0129883300439637e+00" x="1.2525094244105645e+02" y="-8.3813936421601326e+01" hdg="2.5260437906122748e+00" length="2.8191422277424234e+00">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile>
+            <superelevation s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="0.0000000000000000e+00" t="-2.6349999999999998e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="2.8578887151382464e+00" t="-3.1350000000000007e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <shape s="1.1512987999083201e+01" t="-3.1349999999999998e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="3.5788345928072829e-01" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="2.8578887151382464e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="9.0129883300439637e+00" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.1512987999083201e+01" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneOffset s="1.1832129207983941e+01" a="8.8817841970012523e-16" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00" singleSide="false">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <userData/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="shoulder" level="false">
+                        <link>
+                            <predecessor id="3"/>
+                            <successor id="-3"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="6.3499999999999979e-01" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="curb" width="1.5239999999999998e-01" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{c70e36fc-5597-426b-95ac-0aa0925a78e4}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.7833123742150292e-06" laneId="{b8b70201-486a-4521-b087-de0f7d7a926f}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.7789481007783934e-06" laneId="{cbe4e9cb-b630-4ac2-bd18-73379f5e26e2}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788345928072829e-01" laneId="{adb0c23c-8ebb-462a-be65-ea5c13db4fd6}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788362735111257e-01" laneId="{a819c18b-aa77-43b4-9b62-b50964e38cb1}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788626155706105e-01" laneId="{93e737fd-2f13-4851-b104-2318432665f7}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.8578887151382464e+00" laneId="{5ae4f8b1-a908-49ba-bed5-23ba44a29cdc}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="9.0129883300439637e+00" laneId="{08cb2be8-311b-4d9c-877a-ecea507faace}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1512987999083201e+01" laneId="{eb9d3815-cfcf-4bf7-b7cd-732b74457374}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1512988523908634e+01" laneId="{3de0e0a5-8608-4750-ab87-9735848e0476}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1512993772887484e+01" laneId="{947a9915-3199-45de-89cc-0632e3b67379}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1832129207983941e+01" laneId="{cf8f310e-640d-4d16-a0e1-57bc68eae0b2}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1832129440388925e+01" laneId="{0fea439e-614b-4e1a-a8ec-25c72fdabab7}" travelDir="undirected">
+                                <predecessor id="3" virtual="false"/>
+                                <successor id="-3" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                    <lane id="-2" type="sidewalk" level="false">
+                        <link>
+                            <predecessor id="4"/>
+                            <successor id="-4"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="2.0000000000000009e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                        <roadMark sOffset="0.0000000000000000e+00" type="none" width="0.0000000000000000e+00" material="standard" weight="standard" color="standard" laneChange="none"/>
+                        <speed sOffset="0.0000000000000000e+00" max="6.0000000000000000e+01" unit="km/h"/>
+                        <height sOffset="0.0000000000000000e+00" inner="1.5239999999999998e-01" outer="1.5239999999999998e-01"/>
+                        <userData>
+                            <vectorLane sOffset="0.0000000000000000e+00" laneId="{cd60fa36-10de-4a96-82e8-0e632bcf91fa}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.7833123742150292e-06" laneId="{8afd3b17-f500-49b9-8b45-3e7ef6e85e73}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="7.7789481007783934e-06" laneId="{7bd1e629-51e9-4817-8873-9f917ee999a7}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788345928072829e-01" laneId="{78b76070-e270-4de7-880f-de9e00745260}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788362735111257e-01" laneId="{76e95a1e-5ff9-4dfc-b656-693feb35de20}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="3.5788626155706105e-01" laneId="{d37bd5d8-b222-4847-ad4d-29705e855b2f}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="2.8578887151382464e+00" laneId="{b9793a7f-e57d-4431-b1d5-2e28ad743c00}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="9.0129883300439637e+00" laneId="{9154b22a-179b-41d6-a4b4-76e301e038d9}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1512987999083201e+01" laneId="{0ddcb49b-64c9-4c19-859b-2c2e04ec403b}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1512988523908634e+01" laneId="{c62b3c6a-2e33-431f-a6ee-76bf3637630e}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1512993772887484e+01" laneId="{95d24361-7d28-4854-a623-2d14455d8ec6}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1832129207983941e+01" laneId="{ba3dd295-e076-4b70-9f84-b1ce686ed832}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                            <vectorLane sOffset="1.1832129440388925e+01" laneId="{19b41c6c-92bb-4f31-ada7-9e10f7516444}" travelDir="undirected">
+                                <predecessor id="4" virtual="false"/>
+                                <successor id="-4" virtual="false"/>
+                            </vectorLane>
+                        </userData>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+        <userData>
+            <vectorRoad corner="yes"/>
+        </userData>
+    </road>
+    <junction id="3" name="junction3">
+        <connection id="0" incomingRoad="0" connectingRoad="4" contactPoint="start">
+            <laneLink from="3" to="-1"/>
+            <laneLink from="4" to="-2"/>
+        </connection>
+        <connection id="1" incomingRoad="2" connectingRoad="15" contactPoint="end">
+            <laneLink from="1" to="1"/>
+        </connection>
+        <connection id="2" incomingRoad="2" connectingRoad="17" contactPoint="end">
+            <laneLink from="2" to="1"/>
+        </connection>
+        <connection id="3" incomingRoad="0" connectingRoad="20" contactPoint="end">
+            <laneLink from="2" to="1"/>
+        </connection>
+        <connection id="4" incomingRoad="0" connectingRoad="26" contactPoint="start">
+            <laneLink from="-4" to="2"/>
+            <laneLink from="-3" to="1"/>
+        </connection>
+        <connection id="5" incomingRoad="1" connectingRoad="36" contactPoint="end">
+            <laneLink from="2" to="1"/>
+        </connection>
+        <connection id="6" incomingRoad="0" connectingRoad="39" contactPoint="end">
+            <laneLink from="1" to="1"/>
+        </connection>
+        <connection id="7" incomingRoad="0" connectingRoad="45" contactPoint="end">
+            <laneLink from="2" to="1"/>
+        </connection>
+        <connection id="8" incomingRoad="2" connectingRoad="49" contactPoint="end">
+            <laneLink from="2" to="1"/>
+        </connection>
+        <connection id="9" incomingRoad="1" connectingRoad="56" contactPoint="end">
+            <laneLink from="1" to="1"/>
+        </connection>
+        <connection id="10" incomingRoad="1" connectingRoad="62" contactPoint="end">
+            <laneLink from="2" to="1"/>
+        </connection>
+        <connection id="11" incomingRoad="2" connectingRoad="67" contactPoint="start">
+            <laneLink from="3" to="-1"/>
+            <laneLink from="4" to="-2"/>
+        </connection>
+        <userData>
+            <vectorJunction junctionId="{a59d8142-bd5f-43a3-8d9c-9a5506750c15}"/>
+        </userData>
+    </junction>
+</OpenDRIVE>
