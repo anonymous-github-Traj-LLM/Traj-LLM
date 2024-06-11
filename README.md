@@ -15,7 +15,7 @@ In this section, we  provide some visualization results of trajectories generate
 ### Generated Trajectories
 
 <p align="center">
-     <img src="assets/generate.jpg" alt="Generate_Traj" width="700px">
+     <img src="assets/generate.jpg" alt="Generate_Traj" width="800px">
      <br/> Traj-LLM has the ability to generalize well to scenarios involving traffic cones, bicycles, and pedestrians.
 </p>
 
