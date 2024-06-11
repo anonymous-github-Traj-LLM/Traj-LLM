@@ -4,7 +4,7 @@
 
 
 <p align="center">
-     <img src="assets/architecture.jpg" alt="Traj-LLM" width="700px">
+     <img src="assets/architecture.jpg" alt="Traj-LLM" width="800px">
      <br/> Traj-LLM proposes a two-stage "interaction-behavior-trajectory" translation. (a) We employ LLM with the random locality attention to translate the textual description of vehicle interactions into the behavior of each vehicle. Each behavior is associated with the underlying logic. (b) Given the vehicle interactions and behaviors, LLM translates them to the sequential motion parameters that represent the trajectory of each vehicle.
 </p>
 
@@ -15,7 +15,7 @@ In this section, we  provide some visualization results of trajectories generate
 ### Generated Trajectories
 
 <p align="center">
-     <img src="assets/generate.jpg" alt="Generate_Traj" width="800px">
+     <img src="assets/generate.jpg" alt="Generate_Traj" width="700px">
      <br/> Traj-LLM has the ability to generalize well to scenarios involving traffic cones, bicycles, and pedestrians.
 </p>
 
