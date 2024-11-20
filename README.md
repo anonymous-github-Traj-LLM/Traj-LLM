@@ -3,7 +3,7 @@
 **Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving**
 
 <p align="center">
-     <img src="assets/architecture.jpg" alt="Traj-LLM" width="800px">
+     <img src="assets/architecture.png" alt="Traj-LLM" width="800px">
      <br/> Traj-LLM proposes a two-stage "interaction-behavior-trajectory" translation. (a) We employ LLM with the random locality attention to translate the textual description of vehicle interactions into the behavior of each vehicle. Each behavior is associated with the underlying logic. (b) Given the vehicle interactions and behaviors, LLM translates them to the sequential motion parameters that represent the trajectory of each vehicle.
 </p>
 
